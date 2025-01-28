@@ -9,6 +9,7 @@ function App() {
         backgroundImage: `url(${Bg})`,
       }}
     >
+      <div></div>
       <Form />
     </div>
   );
