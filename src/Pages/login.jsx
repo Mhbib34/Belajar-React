@@ -3,7 +3,7 @@ import FormLogin from "../components/Fragments/FormLogin";
 function LoginPage() {
   return (
     <AuthLayouts>
-      <FormLogin title="Login" />
+      <FormLogin title="Login"></FormLogin>
     </AuthLayouts>
   );
 }

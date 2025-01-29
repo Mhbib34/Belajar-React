@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import IndexButton from "../Element/Button/Index";
 import Input from "../Element/Input/Input";
 function FormLogin(props) {
@@ -13,6 +14,7 @@ function FormLogin(props) {
           name="email"
           htmlFor="email"
           textLabel="Email"
+          id="email"
         />
         <Input
           type="password"
@@ -20,8 +22,15 @@ function FormLogin(props) {
           name="password"
           htmlFor="password"
           textLabel="Password"
+          id="password"
         />
       </div>
+      <p className="font-medium mb-2 text-center">
+        Don't have an account?{" "}
+        <Link to="/register" className="font-medium text-blue-800 underline">
+          Sign up
+        </Link>
+      </p>
       <IndexButton />
     </form>
   );
