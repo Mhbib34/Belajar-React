@@ -1,6 +1,7 @@
 import "./App.css";
-import Form from "./components/Fragments/Form";
 import Bg from "./assets/bg.jpg";
+import LoginPage from "./Pages/Login";
+import RegisterPage from "./Pages/register";
 function App() {
   return (
     <div
@@ -9,7 +10,8 @@ function App() {
         backgroundImage: `url(${Bg})`,
       }}
     >
-      <Form />
+      {/* <LoginPage /> */}
+      <RegisterPage />
     </div>
   );
 }
