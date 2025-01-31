@@ -1,5 +1,4 @@
-function Input(props) {
-  const { type, placeholder, name, textLabel, htmlFor } = props;
+function Input({ type, placeholder, name, textLabel, htmlFor }) {
   return (
     <>
       <label htmlFor={htmlFor} className="text-black font-normal text-lg">

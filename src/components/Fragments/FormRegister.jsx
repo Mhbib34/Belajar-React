@@ -1,8 +1,7 @@
 import IndexButton from "../Element/Button/Index";
 import Input from "../Element/Input/InputIndex";
 import { Link } from "react-router-dom";
-function FormRegister(props) {
-  const { title } = props;
+function FormRegister({ title }) {
   return (
     <div className="bg-white/20 backdrop-blur-sm py-10 px-10 rounded-2xl flex flex-col w-md">
       <h1 className="my-2 font-medium text-3xl text-blue-400">{title}</h1>

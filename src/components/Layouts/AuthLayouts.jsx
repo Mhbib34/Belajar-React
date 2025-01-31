@@ -1,7 +1,6 @@
 import Bg from "../../assets/bg.jpg";
 
-function AuthLayouts(props) {
-  const { children } = props;
+function AuthLayouts({ children }) {
   return (
     <div
       className="w-screen h-screen flex justify-center items-center bg-cover"
