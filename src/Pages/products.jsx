@@ -10,7 +10,7 @@ const ProductsPages = () => {
           placeat assumenda deleniti exercitationem iste delectus labore quod!
           Labore, ullam natus!
         </CardProduct.Body>
-        <CardProduct.Price>Rp. 500.000</CardProduct.Price>
+        <CardProduct.Price>Rp. 1.500.000</CardProduct.Price>
       </CardProduct>
     </div>
   );
