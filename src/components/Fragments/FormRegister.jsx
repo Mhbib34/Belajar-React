@@ -1,5 +1,5 @@
 import IndexButton from "../Element/Button/Index";
-import Input from "../Element/Input/Input";
+import Input from "../Element/Input/InputIndex";
 import { Link } from "react-router-dom";
 function FormRegister(props) {
   const { title } = props;
@@ -44,7 +44,7 @@ function FormRegister(props) {
       <p className="font-medium mb-3 ">
         Already have an account?{" "}
         <Link to="/login" className="font-medium text-blue-800 underline">
-          Sign up
+          Sign in
         </Link>
       </p>
       <IndexButton />
