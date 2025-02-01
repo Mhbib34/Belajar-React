@@ -18,10 +18,12 @@ function Body({ children, title, images }) {
 
 function Price({ children }) {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-cente">
       <h2 className="text-2xl">{children}</h2>
-      <div className="">
-        <button className="p-2 bg-blue-500 rounded-md">Add To Cart</button>
+      <div className="group cursor-pointer">
+        <button className="p-2 bg-blue-500 rounded-md group-hover:bg-blue-800 group-hover:animate-bounce transition-all duration-300 ease-in cursor-pointer">
+          Add To Cart
+        </button>
       </div>
     </div>
   );
